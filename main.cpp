@@ -24,6 +24,7 @@ int main() {
         }
         else if (delta < 0){
             cout << "To równanie funkcji kwadratowej nie posiada rozwiązań.";
+            
         }
         else{
         cout <<endl;
