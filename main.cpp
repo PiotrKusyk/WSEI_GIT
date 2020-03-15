@@ -5,10 +5,6 @@ using namespace std;
 
 int a, b, c, delta;
 
-/**
- * Główna funkcja
- * @return
- */
 int main() {
 
     cout << "Program do obliczania funkcji kwadratowej" << endl << endl;
@@ -19,7 +15,6 @@ int main() {
     cout << "Proszę podać c= ";
     cin >> c;
 
-    // obliczenie delty
     delta = b * b - (4 * a * c);
 
     if (delta > 0) {
@@ -34,6 +29,5 @@ int main() {
         cout << "Wynik: x0 = " << -b / (2 * a);
     }
 
-    //zakończenie programu
     return 0;
 }
