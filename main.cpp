@@ -18,7 +18,7 @@ int main() {
     cin >> b;
     cout << "Proszę podać c= ";
     cin >> c;
-
+    
     // obliczenie delty
     delta = b * b - (4 * a * c);
 
